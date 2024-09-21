@@ -1,0 +1,26 @@
+.app {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #e6f2ff, #ffffff);
+  }
+  
+  .main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+  
+  .products {
+    margin-top: 3rem;
+  }
+  
+  .products h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  .productGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+  }
